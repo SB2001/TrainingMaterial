@@ -1,0 +1,38 @@
+#CatPage{
+    background-color: #a87643;
+    font-family: "Arial";
+}
+#Cat{
+    text-align:center;
+    background-image:url(../Images/cat-facts.jpg);
+    background-size:80%;
+    padding:100px;
+    border-color:#33271c;
+    border-style:solid;
+    border-width:5px;
+}
+#Corgi{ text-align:center;
+    background-image:url(../Images/pembroke-welsh-corgi.jpg);
+    background-size:80%;
+    padding:100px;
+    border-color:#2e2920;
+    border-style:solid;
+    border-width:5px;}
+h2.Link{
+    background-color: #b98f67;
+    border-color:#493621;
+    border-style:solid;
+    border-width:5px;
+    text-align:center;
+    padding:10px;
+}
+a{
+    color:#493621;
+}
+
+#DogPage{
+    background-color: #ffde82;
+}
+section{
+    float:right;
+}
