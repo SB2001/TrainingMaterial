@@ -1,0 +1,32 @@
+#body{
+    font-family:Arial;
+    color:#4b4b4b;
+    background-color: rgb(48, 48, 48);
+}
+#Title{
+    background-image:url(Images/Architectural-renderings-sky003AA.jpg);
+    background-size: 100%;
+}
+#OpacityTitle{
+    font-size:50px;
+    background-color:#cde8ffb4;
+    padding:20px;
+}
+#WeatherSelection{
+    font-size:20px;
+}
+#Selector{
+    background-color: rgb(48, 48, 48);
+}
+#result{
+    background: no-repeat 100%;
+    text-align:center;
+    padding:170px;
+    background-position: center;
+}
+#Temperature{
+    text-align:center;
+}
+#Selector{
+    float: right;
+}

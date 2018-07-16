@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+            Various Weather
+        </title>
+        <link href="WeatherProject.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="WeatherProject.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body id="body">
+        <nav id="Title">
+            <h1 Id="OpacityTitle">
+            The Daily Weather
+            <form id="Selector">
+                    <fieldset>
+                            <select id="WeatherSelection" name="WeatherSelection">
+                                <option class=City value="default">Select a City</option>
+                                <option class=City value="los-banos%2C%20ca">Los Banos, CA</option>
+                                <option class=City value="san-jose%2C%20ca">San Jose, CA</option>
+                                <option class=City value="sunnyvale%2C%20ca">Sunnyvale, CA</option>
+                                <option class=City value="boston%2C%20ma">Boston, MA</option>
+                                <option class=City value="portland%2C%20or">Portland, OR</option>
+                            </select>
+                            <input id="Wew" type="submit" value="See The Weather">
+                    </fieldset>
+                </form>
+            </h1>
+            <h1 id="result"></h1>
+            <h2 id="Temperature"></h2>
+        </nav>
+    </body>
+</html>
